@@ -169,23 +169,5 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.titleName1 {
-  position: absolute;
-  top: 48px;
-  font-size: 15px;
-}
-.nodataimage {
-  margin-top: 30px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: 150px;
-  top: 50%;
-}
-.nodataimage img {
-  width: 100%;
-  vertical-align: middle;
-}
+
 </style>
