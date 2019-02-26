@@ -4,12 +4,6 @@
     <div v-if="ishavedata"
       :id="cid"
       :style="diskAnalysis" />
-    <div v-if="!ishavedata"
-      :height="cheight"
-      class="nodataimage">
-      <img src="./../../assets/nodata.png">
-      <p style="width:57px;height:20px;font-size:14px;font-weight:400;color:rgba(153,153,153,1);line-height:20px;margin:auto;">暂无数据</p>
-    </div>
   </div>
 </template>
 <script>
