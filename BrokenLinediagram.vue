@@ -3,12 +3,6 @@
     <div v-if="ishavedata"
       :id="cid"
       :style="diskAnalysis" />
-    <div v-if="!ishavedata"
-      :height="cheight"
-      class="nodataimage">
-      <img src="./../../assets/nodata.png">
-      <p style="width:57px;height:20px;font-size:14px;font-weight:400;color:rgba(153,153,153,1);line-height:20px;margin:auto;">暂无数据</p>
-    </div>
   </div>
 
 </template>
@@ -19,7 +13,7 @@ export default {
   /* 折线图
   **id: 唯一id
   ** ctitle:string    // 标题
-  ** cAxis:['string', 'string'....] // 考试名称
+  ** cAxis:['string', 'string'....] // 名称
   ** cheight:number px //高度
   seriesData: [{value:number,name: string},{value:number,name: string}...]   数值
   */
